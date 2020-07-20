@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   get5-web:
-    image: counterstrafe/get5-web:0.1.0
+    image: counterstrafe/get5-web:0.1.1
     restart: always
     ports:
       - "80:80"
@@ -13,6 +13,7 @@ services:
       MAPLIST: '${MAPLIST}'
       DEFAULT_MAPLIST: '${DEFAULT_MAPLIST}'
       ADMIN_IDS: '${ADMIN_IDS}'
+      GET5_URL_OVERRIDE: '${GET5_URL_OVERRIDE}'
 
   mysql:
     image: mysql:5.7

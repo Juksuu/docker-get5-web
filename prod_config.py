@@ -46,4 +46,4 @@ SPECTATOR_IDS = []
 # This overrides the default way to build the config URL that get appended to the get5_loadmatch_url rcon command.
 # Uncomment and use this if you need to set another ip for your get5 instance than the public ip you're using get5 with
 # in your browser.
-# GET5_URL_OVERRIDE = '127.0.0.1'
+GET5_URL_OVERRIDE = os.environ.get('GET5_URL_OVERRIDE')
