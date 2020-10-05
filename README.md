@@ -1,2 +1,3 @@
-# docker-get5-web
-Docker Compose for spinning up get5-web
+# Docker-get5web
+
+Remember to set ServerName in 000-default.conf
