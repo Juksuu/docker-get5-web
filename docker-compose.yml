@@ -20,10 +20,6 @@ services:
       - ADMIN_IDS=${ADMIN_IDS}
       - SUPER_ADMIN_IDS=${SUPER_ADMIN_IDS}
       - WHITELISTED_IDS=${WHITELISTED_IDS}
-      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASS}
-      - MYSQL_DATABASE=${MYSQL_DATABASE}
-      - MYSQL_USER=${MYSQL_USER}
-      - MYSQL_PASSWORD=${MYSQL_USER_PASS}
 
   mysql:
     image: mysql:5.7
@@ -33,5 +29,3 @@ services:
       - MYSQL_DATABASE=${MYSQL_DATABASE}
       - MYSQL_USER=${MYSQL_USER}
       - MYSQL_PASSWORD=${MYSQL_USER_PASS}
-    ports:
-      - 3306:3306
