@@ -20,6 +20,7 @@ services:
       - ADMIN_IDS=${ADMIN_IDS}
       - SUPER_ADMIN_IDS=${SUPER_ADMIN_IDS}
       - WHITELISTED_IDS=${WHITELISTED_IDS}
+      - TEAM_MAXPLAYERS=${TEAM_MAXPLAYERS}
 
   mysql:
     image: mysql:5.7

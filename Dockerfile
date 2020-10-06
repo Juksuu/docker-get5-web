@@ -7,7 +7,7 @@ RUN apt-get update && apt-get upgrade -y && \
     apt-get install git -y
 
 RUN cd /var/www && \
-    git clone https://github.com/PhlexPlexico/get5-web
+    git clone https://github.com/Juksuu/get5-web
 
 RUN cd /var/www/get5-web && \
     virtualenv venv && \

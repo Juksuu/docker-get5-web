@@ -6,6 +6,7 @@ STEAM_API_KEY = os.environ.get('STEAM_API_KEY')  # See https://steamcommunity.co
 SECRET_KEY = os.environ.get('SECRET_KEY')  # Secret key used for flask cookies
 DATABASE_KEY = os.environ.get('DATABASE_KEY')  # Used for encryption on database. MUST BE 16 BYTES.
 WEBPANEL_NAME = os.environ.get('WEBPANEL_NAME') # Used for the title header on the webpage.
+TEAM_MAXPLAYERS = os.environ.get("TEAM_MAXPLAYERS") # Max players for team
 JSON_AS_ASCII = False #UTF-8 Encoding Issue.
 CUSTOM_PLAYER_NAMES = True
 
